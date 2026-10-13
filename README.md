@@ -68,6 +68,26 @@ The following metrics are based on delivered orders and exclude shipping costs.
 
 ![Category Sales](outputs/top_10_categories.png)
 
+## SQL Analysis
+
+In addition to the Python analysis, this project includes SQL queries developed using Microsoft SQL Server.
+
+The SQL analysis covers:
+
+- Data validation and record count verification.
+- Sales performance analysis using `INNER JOIN`, `SUM()`, and `GROUP BY`.
+- Month-over-month sales growth using Common Table Expressions (CTEs) and `LAG()`.
+- Monthly sales rankings using the `RANK()` window function.
+
+The analysis focuses on delivered orders and uses validated product prices, excluding shipping costs from product sales.
+
+### SQL Files
+
+- `sql/01_data_validation.sql` — Dataset validation and record counts.
+- `sql/02_sales_analysis.sql` — Monthly sales analysis, growth calculations, and sales rankings.
+
+**Technologies:** Microsoft SQL Server, T-SQL, Python, Pandas, Matplotlib.
+
 ## How to Run
 
 1. Download the dataset from Kaggle.
