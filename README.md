@@ -136,4 +136,6 @@ Dataset: Olist Brazilian E-Commerce Public Dataset, available on Kaggle.
 
 Dataset license: CC BY-NC-SA 4.0.
 
+## Power BI Dashboard
 
+![E-Commerce Sales Analytics Dashboard](powerbi/dashboard.png)
