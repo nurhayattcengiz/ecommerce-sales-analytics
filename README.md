@@ -88,6 +88,27 @@ The analysis focuses on delivered orders and uses validated product prices, excl
 
 **Technologies:** Microsoft SQL Server, T-SQL, Python, Pandas, Matplotlib.
 
+
+## Power BI Dashboard
+
+An interactive Power BI dashboard was developed using data imported from Microsoft SQL Server.
+
+### Dashboard Features
+
+- **Total Sales:** R$13.22M (delivered orders)
+- **Total Orders:** 96,478 delivered orders
+- **Average Order Value:** R$137.04
+- **Monthly Sales Trend:** Sales performance over time
+- **Order Status Distribution:** Breakdown of orders by status
+- **Date Slicer:** Interactive filtering by order purchase date
+
+### Power BI File
+
+`powerbi/ECommerce_Sales_Dashboard.pbix`
+
+**Tools:** Power BI Desktop, DAX, Power Query, Microsoft SQL Server.
+  
+
 ## How to Run
 
 1. Download the dataset from Kaggle.
@@ -114,4 +135,5 @@ The charts will be saved automatically in the `outputs` folder.
 Dataset: Olist Brazilian E-Commerce Public Dataset, available on Kaggle.
 
 Dataset license: CC BY-NC-SA 4.0.
-s
+
+
